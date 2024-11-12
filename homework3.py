@@ -3,6 +3,7 @@
 # number2 = 2.99
 # print(int(number))
 # print(int(number2))
+from xmlrpc.client import boolean
 
 # задание 2
 # line = "www.my_site.com#about"
@@ -16,10 +17,10 @@
 # print (result)
 
 # задание 4
-# rename = "Ivanou Ivan"
+# rename = ["Ivanou", "Ivan"]
 # print(type(rename))
-# rename2 = rename.replace("Ivanou Ivan", "Ivan Ivanou ", 1)
-# print(rename2)
+# rename.reverse( )
+# print(rename)
 
 # задание 5
 # book = " war and peace "
@@ -44,23 +45,14 @@
 # задание 7
 # numbers = [1, 1, 3, 5]
 # numbers2 = list(range(1, 11))
-# print(numbers2)
-# print(13 in numbers2)
+# print(numbers[1])
 
 # задание 8
-# activite = "employ, employment"
-# print(activite.count("employ"))
+# y = "employment"
+# y_2 = "employ"
+# print(y_2 in y)
 
 # задание 9
 # x = "My name is Agent Smith"
 # print(x[1])
 # print(x[3:16:3])
-
-
-
-
-
-
-
-
-
