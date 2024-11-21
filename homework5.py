@@ -1,14 +1,5 @@
-
-def inc_tally(tally):
-    return tally * 3.5
-# Измените значение, хранимое в переменной tally, увеличив его в 3.5 раза, результат свяжите с
- # переменной icc_tal.
-tally = inc_tally(15)
-print(tally)
-
-
 def subtraction(var_fl):
-# Измените значение, хранимое в переменной var_float,
+# 1 Измените значение, хранимое в переменной var_float,
 # уменьшив его на единицу, результат свяжите с той же переменной.
     result = var_fl - 1
     return result
@@ -16,12 +7,19 @@ def subtraction(var_fl):
 var_fl = subtraction(8.4)
 print("var_fl:", var_fl)
 
+# 2 Измените значение, хранимое в переменной var_int, увеличив его в 3.5 раза, результат свяжите с
+# переменной big_int.
+def big_int(var_int):
+    return var_int * 3.5
 
-def a_list(un_list):
-    return un_list
-# Есть список: [1, 2, 3, 4, 3, 2, 5, 1, 4, 6, 7, 1, 8, 2, 3] оставить в нем только уникальные
-# # значения.
-list_pr = [1, 2, 3, 4, 3, 2, 5, 1, 4, 6, 7, 1, 8, 2, 3]
-un_list = list(set(list_pr))
+var_int = big_int(15)
+print(var_int)
 
-print(un_list)
+
+# 3. Есть список: [1, 2, 3, 4, 3, 2, 5, 1, 4, 6, 7, 1, 8, 2, 3] оставить в нем только уникальные
+def unique_list(a_list):
+     return a_list
+
+b_list = [1, 2, 3, 4, 3, 2, 5, 1, 4, 6, 7, 1, 8, 2, 3]
+a_list =list(set(b_list))
+print(a_list)
